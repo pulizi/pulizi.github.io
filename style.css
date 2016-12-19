@@ -11,7 +11,8 @@ body
 
 .cover{
     /*height: 100;*/
-    background: linear-gradient(to right, #293f50, #648880, #f6f1d3);
+   /*background: linear-gradient(to right, #293f50, #648880, #f6f1d3);*/
+   background: #293f50;
 }
 
 ul.navigation {

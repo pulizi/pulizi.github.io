@@ -1,3 +1,19 @@
+body 
+{
+    background-color: #f6f6f6;
+    min-width: 1000px;
+    max-width: 1000px;
+    width: 80%;
+    margin:0 auto;
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+.cover{
+    /*height: 100;*/
+    background: linear-gradient(to right, #293f50, #648880, #f6f1d3);
+}
+
 ul.navigation {
 	list-style-type: none;
     margin: 0;
@@ -5,7 +21,7 @@ ul.navigation {
     overflow: hidden;
     background-color: #333;
     background: #648880;
-  background: linear-gradient(to right, #293f50, #648880, #f6f1d3);
+  background: #293f50;
 }
 
 ul.navigation li{
@@ -24,33 +40,4 @@ ul.navigation li a{
 
 ul.navigation li a:hover{
     background-color: #3e8e41;
-}
-
-ul.navigation li.icon { display: none; }
-
-/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
-@media screen and (max-width:680px) {
-  ul.topnav li:not(:first-child) {display: none;}
-  ul.topnav li.icon{
-    float: right;
-    display: inline-block;
-  }
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-@media screen and (max-width:680px) {
-  ul.navigation.responsive {position: relative;}
-  ul.navigation.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.navigation.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.navigation.responsive li a {
-    display: block;
-    text-align: left;
-  }
 }

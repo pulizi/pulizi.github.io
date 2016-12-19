@@ -39,5 +39,9 @@ ul.navigation li a{
 }
 
 ul.navigation li a:hover{
-    background-color: #3e8e41;
+    background-color: #4A7A9F;
+}
+
+ul.navigation li.active{
+    background-color: #1A2A36;
 }

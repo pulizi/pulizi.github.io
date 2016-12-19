@@ -43,6 +43,7 @@ ul.navigation li a:hover{
     background-color: #4A7A9F;
 }
 
+/*for active page*/
 ul.navigation li.active{
     background-color: #1A2A36;
 }

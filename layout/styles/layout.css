@@ -140,6 +140,8 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav li li .drop::after{top:15px; left:5px;}
 #mainav ul ul{visibility:hidden; opacity:0;}
 #mainav ul li:hover > ul{visibility:visible; opacity:1;}
+#mainav .faicon-instagram:hover{color:#8a3ab9;}
+#mainav .faicon-facebook:hover{color:#3B5998;}
 
 #mainav form{display:none; margin:0; padding:0;}
 #mainav form select, #mainav form select option{display:block; cursor:pointer; outline:none;}
@@ -209,6 +211,7 @@ td{border-width:0 1px;}
 .faicon-pinterest:hover{color:#C8232C;}
 .faicon-rss:hover{color:#EE802F;}
 .faicon-twitter:hover{color:#00ACEE;}
+.faicon-instagram:hover{color:#8a3ab9;}
 
 
 /* ------------------------------------------------------------------------------------------------------------ */
